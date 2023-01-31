@@ -1,0 +1,50 @@
+#musicplayer-container{
+  background-color:black;
+  width:300px;
+  height:370px;
+/*   border-radius:14px; */
+}
+#musicplayer-container #image-container, img{
+  width:280px;
+  padding:5px;
+  height:180px;
+}
+
+#musicplayer-container {
+  margin-left:550px;
+}
+
+#song-description{
+ padding:9px;
+  color:white;
+  font-size:17px;
+  line-height:0.2;
+}
+#song-description .songname{
+  font-weight:bold;
+  font-family:sans-serif;
+}
+#progress-container{
+  color:white;
+  padding:10px;
+}
+#progress-container #progress-bar{
+  width:250px;
+  height:2px;
+  margin-left:8px;
+ background-color:white;
+}
+#progress-container #progress-bar #progress{
+  width:160px;
+  height:2px;
+  background-color:green;
+}
+#progress-container span{
+ font-size:12px;
+}
+#musicplayer-container #icons, i{
+  color:white;
+  font-size:13px;
+    margin-left:28px;
+  justify-content:space-evenly;
+}
